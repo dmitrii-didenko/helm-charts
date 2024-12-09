@@ -6,7 +6,7 @@
 trigger: none
 
 jobs:
-- deployment: to-development
+- deployment: to_development
   displayName: development
   pool: test
   environment: development
