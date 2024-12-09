@@ -10,3 +10,8 @@ jobs:
   displayName: development
   pool: test
   environment: development
+  strategy:
+    runOnce:
+      deploy:
+        steps:
+        - script: echo my first deployment
